@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC:wght@700&family=Fuzzy+Bubbles&family=Kalam&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    background-color: #00296b;
+    height: 725px;
+}
+
+.msg {
+    background-color: orange;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+footer {
+    background-color: orange;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+body {
+    background-color: #fdc500;
+    font-family: 'Fuzzy Bubbles', cursive, 'Kalam', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    background-color: orange;
+}
+
+nav a:hover {
+    background-color: #00296b;
+    color: white;
+}
+
+.home-title {
+    color: black;
+    font-family: 'Shadows Into Light', cursive, 'Permanent Marker', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: black;
+}
+
+.book, .join {
+    background-color: white;
+    color: #00296b;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid orange;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.book:hover, .join:hover {
+    background-color: #00296b;
+    color: white;
+}
+
+.msg h2 {
+    color: black;
+    font-family: 'Shadows Into Light', cursive, 'Permanent Marker', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;   
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.mountains {
+    margin: 100px 0px 200px 0px;
+}
