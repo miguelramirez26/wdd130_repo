@@ -1,0 +1,132 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #004038;
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    padding: 10px 20px;
+}
+
+.header-right {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 25px;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #3db6a7;
+    color: white;
+
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width: 80px;
+}
+
+body {
+    background-color: #3db6a7;
+    font-family: "helvetica"; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+p {
+    font-family: helvetica;
+}
+
+#shower-img {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.store {
+    position: absolute;
+    background-color: #004038;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px 50px;
+    /* margin-top: 50px; */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #6f7364;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 0;
+}
+
+.store:hover {
+    background-color: black;
+}
+
+.wraper-img {
+    position: relative;
+    margin-top: 100px;
+}
+
+#bathroom-img {
+    width: 1024px;
+    height: 696px;
+    /* padding-top: 35px; */
+}
+
+footer {
+    background-color: #004038;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    padding: 15px;
+    width: 64px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
