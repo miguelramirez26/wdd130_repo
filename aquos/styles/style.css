@@ -131,6 +131,100 @@ footer a {
     text-decoration: none;
 }
 
+
+/* Subpage styling */
+
+.smartshower-card {
+    background: #004038;
+    position: relative;
+    margin-top: 250px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+}
+.card-img {
+    position: absolute;
+    bottom: 100%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%); 
+    height: 200px;
+}
+
+.smartshower-container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.profiles1-container {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+
+.profiles1-card {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-auto-columns: 50% 50%;
+    width: 90%;
+    align-items: center;
+}
+
+.card1-img {
+    width: 100%;
+}
+
+.profiles1-card p {
+    background: #004038;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.profiles1-card .card1-text2 {
+    height: 250px;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+}
+
+.content {
+    width: 700px;
+    background: red;
+}
+
+.secure-container {
+    display: grid;
+    padding: 20px;
+}
+
+.card2-img {
+    width: 100%;
+}
+
+.store-title {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
