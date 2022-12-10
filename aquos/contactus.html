@@ -8,6 +8,33 @@
     <title>Contact Us</title>
 </head>
 <body>
+    <div id="pop-up">
+        <button id="close-form">x</button>
+        <div class="fromContainer">
+            <form id="contact-us-form" action="action_page.php">
+            <h1 id="form-tilte">This is the form<title></title></h1>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
+    </div>
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
@@ -37,72 +64,51 @@
                 <h1 class="home-title">CUSTOMER SERVICE AND TECHNICAL SUPPORT</h1>
             </section>
         </div>
-        <main class="home-grid">
-            <section class="contact">
-                <p>Call us or contact us through one of the following forms.</p>
-                <p>Telephone number</p>
-                <p>Monday to Friday from 8:00 a.m. to 8:00 p.m.</p>
-            </section>
+        <section class="contact">
+            <p>Call us or contact us through one of the following forms.</p>
+            <p>Telephone number</p>
+            <p>Monday to Friday from 8:00 a.m. to 8:00 p.m.</p>
+        </section>
+        <main class="home-grid1">
             <section class="general-form">
                 <h2>GENERAL INFORMATION</h2>
                 <p>Request general information about our company and our products.</p>
-                <p>GENERAL CONTACT</p>
-                <div class="container">
-                    <form action="action_page.php">
-                  
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                      </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                  
-                    </form>
-                  </div>
+                <button class="button" id="btn1">GENERAL CONTACT</button>
             </section>
             <section class="pre-sales-form">
                 <h2>PRE-SALES TECHNICAL ASSISTANCE</h2>
                 <p>Request general information about our company and our products.</p>
-                <p>REQUEST ADVICE</p>
+                <button class="button" id="btn2">REQUEST ADVICE</button>
             </section>
             <section class="installation-form">
                 <h2>PRODUCT INSTALLATION</h2>
                 <p>Our Official Technical Service will come to your home to install the product, ensuring the quality of the installation. We include the previous visit to take measurements.</p>
-                <p>REQUEST INSTALLATION</p>
+                <button class="button" id="btn3">REQUEST INSTALLATION</button>
             </section>
             <section class="repair-form">
                 <h2>PRODUCT REPAIR</h2>
                 <p>In case of any incident, our Official Technical Service will solve it with professionalism and efficiency.</p>
-                <p>REQUEST REPAIR</p>
+                <button class="button" id="btn4">REQUEST REPAIR</button>
             </section>
             <section class="orders-form">
                 <img src="" alt="">
                 <h2>ORDERS AND RETURNS</h2>
                 <p>Please feel free to contact us to inquire about any order or return.</p>
-                <p>MAKE A REQUEST</p>
+                <button class="button" id="btn5">MAKE A REQUEST</button>
             </section>
+        </main>
+        <div class="flex">
             <section class="exhibition-card">
-                <img src="images/istockphoto-1340869268-170667a.jpg" alt="Exhibition">
-                <h2>VISIT OUR EXHIBITION</h2>
+                <img class="exhibition-img"src="images/istockphoto-1340869268-170667a.jpg" alt="Exhibition">
+                <h3>VISIT OUR EXHIBITION</h3>
                 <p>Request general information about our company and our products.</p>
             </section>
             <section class="stores-card">
-                <img src="images/vista-superior-3d-mapa-punto-ubicacion-destino-vista-superior-aerea-limpia-mapa-ciudad-dia-calles-rios-mapa-urbano-blanco-concepto-navegador-mapas-gps_34645-1096 copy.jpg" alt="Stores">
-                <h2>STORES</h2>
+                <img class="stores-img" src="images/vista-superior-3d-mapa-punto-ubicacion-destino-vista-superior-aerea-limpia-mapa-ciudad-dia-calles-rios-mapa-urbano-blanco-concepto-navegador-mapas-gps_34645-1096 copy.jpg" alt="Stores">
+                <h3>STORES</h3>
                 <p>Find your nearest point of sale where you can buy Aquos products.</p>
             </section>
-        </main>
+        </div>
         <footer>
             <p>Aquos &copy; 2022 - Miguel Ramirez</p>
             <p><a href="site-plan-aquos.html">Site Plan</a></p>
@@ -120,5 +126,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/contactUs.js"></script>
 </body>
 </html>
